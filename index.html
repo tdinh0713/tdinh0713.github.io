@@ -2,78 +2,130 @@
 <html>
   <head>
     <title>My Website</title>
+    <style>
+      body {
+          text-align: center;
+          background-color: #C0C0C0;
+      }
+
+      div {
+          text-align: center;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 5px;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        border: 2px solid Black;
+      }
+
+      .friend {
+          border: 2px dashed #008000;
+      }
+
+      .family {
+          border: 2px dashed #0000FF;
+      }
+
+      .enemy {
+          border: 2px dashed #FF0000;
+      }
+
+      #me {
+          border: 2px solid Yellow;
+      }
+
+      #og_friend{
+          border: 4px solid #00C957;
+      }
+
+      #archnemesis{
+          border: 4px solid #CC0000;
+      }
+
+      h3 {
+          text-align: center;
+      }
+      div p {
+          text-align: center;
+          font-family: Cursive;
+          font-size: 10px;
+      }
+
+      img {
+          height: 65px;
+          width: 55px;
+          border-radius: 100%;
+      }
+    </style>
   </head>
   
-  <body style="background-color:LightGreen">
-      <!--Name and Picture-->
-      <h1 style="font-family: Times; text-align: center; font-size: 72; background-color:GhostWhite">Thong Dinh</h1>
-      <p style="text-align: center">
-          <img src="http://bit.ly/1JoddMN" width="300" height="300" />
-      </p>
-
-     <!--Table Practice-->
-      <table align="center" style="background-color:GhostWhite">
-      <thead>
-          <tr>
-              <th colspan="3">
-                  Table Practice With Stock Photos
-              </th>
-          </tr>
-      </thead>
-  
-      <tbody>
-          <tr>
-              <td>
-                  <a href="http://bit.ly/JQxzRc" target="_blank">
-                  <img src="http://bit.ly/JQxzRc" width="100" height="100" />
-                  </a>
-              </td>
-              <td>
-                  <a href="http://bit.ly/1ILPZjQ" target="_blank">
-                  <img src="http://bit.ly/1ILPZjQ" width="100" height="100" />
-                  </a>
-              </td>
-              <td>
-                  <a href="http://bit.ly/1KezcVB" target="_blank">
-                  <img src="http://bit.ly/1KezcVB" width="100" height="100" />
-                  </a>
-              </td>
-          </tr>
-          <tr>
-              <td>
-                  <a href="http://bit.ly/1JKOjAW" target="_blank">
-                  <img src="http://bit.ly/1JKOjAW" width="100" height="100" />
-                  </a>
-              </td>
-              <td>
-                  <a href="http://bit.ly/1GWFk2g" target="_blank">
-                  <img src="http://bit.ly/1GWFk2g" width="100" height="100" />
-                  </a>
-              </td>
-              <td>
-                  <a href="http://bit.ly/1cwBKs8" target="_blank">
-                  <img src="http://bit.ly/1cwBKs8" width="100" height="100" />
-                  </a>
-              </td>
-          </tr>
-          <tr>
-              <td>
-                  <a href="http://bit.ly/1hMepdA" target="_blank">
-                  <img src="http://bit.ly/1hMepdA" width="100" height="100" />
-                  </a>
-              </td>
-              <td>
-                  <a href="http://bit.ly/1xRNyzw" target="_blank">
-                  <img src="http://bit.ly/1xRNyzw" width="100" height="100" />
-                  </a>
-              </td>
-              <td>
-                  <a href="http://bit.ly/1nX69dK" target="_blank">
-                  <img src="http://bit.ly/1nX69dK" width="100" height="100" />
-                  </a>
-              </td>
-          </tr>
-      </tbody>
-      </table>
+  <body>
+    <h3>Commander in Chief</h3>
+    <div id="me">
+        <p>Thong Dinh
+            <img src="http://bit.ly/1JoddMN" />
+        </p>
+    </div>
+    <h3>Support System</h3>
+    <div class="family">
+        <p>Mom & Dad
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/10502409_1616675981878003_6636279655407328848_n.jpg?oh=1a28eec83f1134a3fed0084d62668178&oe=5701F0A1" />
+        </p>
+    </div>
+    <div class="family">
+        <p>Sister (Trinh)
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11014845_1023772344299772_4799051130219235712_n.jpg?oh=84a1dd1362afa6f481fb1ca40644c45b&oe=57110D19" />
+        </p>
+    </div>
+    <div class="family">
+        <p>Brother (Thang)
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-9/12243012_1235034989856244_3581539957223721747_n.jpg?oh=ee0784f9aa6dffe5a2a9bf35c7bd4c17&oe=57484AB4" />
+        </p>
+    </div>
+    
+    <h3>Unit 417 Allies</h3>
+    <div class="friend" id="og_friend">
+        <p>Cynthia Shen
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xlt1/v/t1.0-9/11150477_10206156343061822_1728360680505759947_n.jpg?oh=8b0b94baed821046c84268c7137ead14&oe=5744CCAF" />
+        </p>
+    </div>
+    <div class="friend">
+        <p>Carmel Malvar
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1913827_10153777370033864_6481770560756949300_n.jpg?oh=98eb0eb3829072e012d96126a1102758&oe=5701A5DD" />
+        </p>
+    </div>
+    <div class="friend">
+        <p>Alex Zhang
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/12301562_10203427964780152_260899975986285615_n.jpg?oh=c4ab93b3bdf3ca8b3874277097d087d9&oe=57484ADE" />
+        </p>
+    </div>
+    <div class="friend">
+        <p>Ashley Chen
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11162342_10204621480512553_6153270442369133507_n.jpg?oh=cff0ef16d84325d55f4654aef56ba37c&oe=57486BF2" />
+        </p>
+    </div>
+    <div class="friend" id="og_friend">
+        <p>Rachel Nguyen
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xla1/v/t1.0-9/12376706_1060772327306773_3905906655763960151_n.jpg?oh=78182f5d4f03b3894dbdfdaa055c7294&oe=570FBA3E" />
+        </p>
+    </div>
+    
+    <h3>Unit 417 Enemies</h3>
+    <div class="enemy" id="archnemesis">
+        <p>Mike Aboody
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/1487434_10206548844589692_8917629669032638255_n.jpg?oh=b303654d5af970d87c63258deb7efab7&oe=57106561" />
+        </p>
+    </div>
+    <div class="enemy">
+        <p>Allen Wang
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/12376013_916447165112366_5846127451646491935_n.jpg?oh=a4e8f1d90013e541f5c5888a051cdacf&oe=57155D7F" />
+        </p>
+    </div>
+    <div class="enemy" id="archnemesis">
+        <p>Brian Laus
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/11870648_1015246868495149_2675877142850431270_n.jpg?oh=9e56a74c572a44f8e9bfc59e0ed51e1f&oe=5746C0FF" />
+        </p>
+    </div>
   </body>
 </html>
